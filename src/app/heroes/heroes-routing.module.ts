@@ -4,10 +4,12 @@ import { AddComponent } from './pages/add/add.component';
 import { HeroeComponent } from './pages/heroe/heroe.component';
 import { ListComponent } from './pages/list/list.component';
 import { SearchComponent } from './pages/search/search.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   {
     path: '',
+    component: HomeComponent,
     children: [
       {
         path: 'list',
