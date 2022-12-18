@@ -12,6 +12,9 @@ import { switchMap, tap } from 'rxjs';
       width: 100%;
       border-radius: 5px;
     },
+    mat-card {
+      margin-top: 20px
+    }
   `]
 })
 export class HeroeComponent implements OnInit {
